@@ -1,0 +1,12 @@
+{
+	"version": "1",
+	"plugins": [],
+	"builds": [
+		{
+			"package": "",
+			"src": "./cddl",
+			"output": "gen/"
+		}
+	],
+	"options": null
+}

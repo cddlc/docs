@@ -1,0 +1,4 @@
+name = tstr
+age = uint
+public-key = bytes
+account-balance = int

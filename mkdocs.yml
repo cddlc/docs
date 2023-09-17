@@ -1,0 +1,46 @@
+site_name: cddlc
+
+theme:
+  name: material
+
+  features:
+    - content.code.copy
+    - content.code.select
+
+    # Enable when we fix repos
+    # - content.action.edit
+    # - content.action.view
+
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets:
+      base_path: .
+  - pymdownx.inlinehilite
+  - footnotes
+
+nav:
+  - index.md
+  - Installation: installation.md
+  - Language: 
+    - language/index.md
+    - Primitives: language/primitives.md
+    - Fixed Values: language/values_fixed.md
+    - References: language/reference.md
+  - Configuring Builds:
+    - builds/index.md

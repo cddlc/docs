@@ -1,0 +1,14 @@
+NAME:
+   cddl - CDDL validator and code generator
+
+USAGE:
+   cddl [global options] command [command options] [arguments...]
+
+COMMANDS:
+   init           Initialize a new cddlc project
+   generate, gen  Generate code from definition file
+   doctor         Show information about the current build
+   help, h        Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --help, -h  show help (default: false)

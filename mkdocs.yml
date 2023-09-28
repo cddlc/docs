@@ -26,6 +26,8 @@ theme:
         name: Switch to light mode
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -41,6 +43,8 @@ nav:
     - language/index.md
     - Primitives: language/primitives.md
     - Fixed Values: language/values_fixed.md
+    - Sockets/Plugs: language/sockets_plugs.md
     - References: language/reference.md
   - Configuring Builds:
     - builds/index.md
+ 

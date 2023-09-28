@@ -2,7 +2,7 @@
   File generated using `cddlc.exe gen`. DO NOT EDIT
 */
 
-package
+package foo
 
 // (cddlc) Ident: name
 type Name string

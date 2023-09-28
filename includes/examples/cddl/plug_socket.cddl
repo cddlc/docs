@@ -1,0 +1,6 @@
+Person = (
+    name: tstr,
+    age: uint,
+
+    Location: $$Location
+)

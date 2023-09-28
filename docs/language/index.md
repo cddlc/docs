@@ -9,3 +9,7 @@ cddlc generate --source foo.cddl --out lib/foo_gen.go --package foo
 ```
 
 where `foo.cddl` is the input file, `lib/foo_gen.go` is the generated Go file and `foo` is the name of the package.
+
+
+!!! tip
+    For a full reference of cddl concepts and their level of support in `cddlc` skip to the [references](./reference.md) section.

@@ -3,7 +3,7 @@
 	"plugins": [],
 	"builds": [
 		{
-			"package": "",
+			"package": "foo",
 			"src": "./cddl",
 			"output": "gen/"
 		}

@@ -4,7 +4,7 @@ set -euxo pipefail
 
 # Install using go install
 # --8<-- [start:go_cddlc_install]
-go install go.hanneskimara.com/cddlc/cmd/cddlc@latest
+go install github.com/HannesKimara/cddlc/cmd/cddlc@latest
 # --8<-- [end:go_cddlc_install]
 
 # Test installation and log output

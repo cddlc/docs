@@ -5,7 +5,7 @@ import "time"
 type Planet int
 
 const (
-	Mercury = iota
+	Mercury Planet = iota
 	Venus
 	Earth
 	Mars

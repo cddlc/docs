@@ -1,7 +1,7 @@
 # Installation
 
 ## Executable
-### go install
+### go install (≥1.18)
 
 `cddlc` is available as a standalone golang binary through go install.
 
@@ -27,12 +27,12 @@ which will print the help to the terminal.
 
 ## Go Library
 
-[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://godoc.org/github.com/flowfunction/cddlc)
+[![GoDoc](https://pkg.go.dev/badge/github.com/HannesKimara/cddlc?utm_source=godoc)](https://pkg.go.dev/github.com/HannesKimara/cddlc)
 
 The `cddlc` module exports go packages used for tokenizing and parsing `CDDL` documents. To get, run:
 
 ``` sh
-go get -u go.hanneskimara.com/cddlc
+go get -u github.com/HannesKimara/cddlc
 ```
 
 To parse a sample `CDDL` document to its AST representation 
@@ -47,8 +47,8 @@ To parse a sample `CDDL` document to its AST representation
         "io/ioutil"
         "log"
 
-        "go.hanneskimara.com/cddlc/lexer"
-        "go.hanneskimara.com/cddlc/parser"
+        "github.com/HannesKimara/cddlc/lexer"
+        "github.com/HannesKimara/cddlc/parser"
     )
 
     func main() {
@@ -61,7 +61,7 @@ To parse a sample `CDDL` document to its AST representation
         cddl, err := p.ParseFile()
 
         if err != nil {
-            log.Fatal()
+            log.Fatal(err)
         }
 
         fmt.Printf("Found %d rules\n", cddl.Rules)

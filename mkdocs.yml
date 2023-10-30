@@ -25,6 +25,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+extra_css:
+  - stylesheets/styles.css
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -35,6 +38,8 @@ markdown_extensions:
       base_path: .
   - pymdownx.inlinehilite
   - footnotes
+  - attr_list
+  - md_in_html
 
 nav:
   - index.md

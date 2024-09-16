@@ -25,6 +25,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+  custom_dir: material/overrides
+
 extra_css:
   - stylesheets/styles.css
 

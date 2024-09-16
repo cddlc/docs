@@ -1,3 +1,8 @@
+---
+title: Title
+template: home.html
+---
+
 # Overview
 
 `cddlc` is an experimental golang code generator for CDDL[^1] based data schemas. It generates Go code for (de)serialization and validation of CBOR data strucutes.

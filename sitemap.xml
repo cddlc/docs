@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://cddlc.github.io/docs/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+    <url>
+         <loc>https://cddlc.github.io/docs/installation/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+    <url>
+         <loc>https://cddlc.github.io/docs/builds/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+    <url>
+         <loc>https://cddlc.github.io/docs/language/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+    <url>
+         <loc>https://cddlc.github.io/docs/language/primitives/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+    <url>
+         <loc>https://cddlc.github.io/docs/language/reference/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+    <url>
+         <loc>https://cddlc.github.io/docs/language/sockets_plugs/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+    <url>
+         <loc>https://cddlc.github.io/docs/language/values_fixed/</loc>
+         <lastmod>2025-07-14</lastmod>
+    </url>
+</urlset>

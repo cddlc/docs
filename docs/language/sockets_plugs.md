@@ -17,7 +17,7 @@ Generating code from this using
 --8<-- "includes/examples/build_docs.sh:lang_socket_build"
 ```
 
-exports the Go declarations in "lib/plug_socket.go". To satisfy the Location type in Go a file with this declaration must be added. 
+exports the Go declarations in "lib/plug_socket.go". To satisfy the Location type in Go, a file with this declaration must be added. 
 
 
 === "lib/plug_socket.go"

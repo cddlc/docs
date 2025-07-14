@@ -1,4 +1,8 @@
-site_name: cddlc
+site_name: CDDLC Documentation
+site_url: https://cddlc.github.io/docs
+
+repo_url: https://github.com/HannesKimara/cddlc
+repo_name: HannesKimara/cddlc
 
 theme:
   name: material
@@ -6,10 +10,9 @@ theme:
   features:
     - content.code.copy
     - content.code.select
-
-    # Enable when we fix repos
-    # - content.action.edit
-    # - content.action.view
+    - content.action.edit
+    - content.action.view
+    - navigation.expand
 
 
   palette: 
